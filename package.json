@@ -1,0 +1,45 @@
+{
+  "name": "marcusolsson-csv-datasource",
+  "version": "0.5.0",
+  "description": "A Grafana data source for loading CSV data",
+  "keywords": [
+    "grafana",
+    "csv"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign"
+  },
+  "homepage": "https://grafana.com/plugins/marcusolsson-csv-datasource",
+  "bugs": "https://github.com/marcusolsson/grafana-csv-datasource/issues",
+  "repository": "github:marcusolsson/grafana-csv-datasource",
+  "author": {
+    "name": "Marcus Olsson",
+    "email": "marcus.olsson@hey.com",
+    "url": "https://marcus.se.net"
+  },
+  "devDependencies": {
+    "@emotion/core": "10.0.27",
+    "@grafana/data": "8.0.1",
+    "@grafana/runtime": "8.0.1",
+    "@grafana/toolkit": "8.0.1",
+    "@grafana/ui": "8.0.1",
+    "@types/lodash": "^4.14.168",
+    "@types/react-virtualized-auto-sizer": "^1.0.0",
+    "emotion": "10.0.27",
+    "react-virtualized-auto-sizer": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "resolutions": {
+    "rxjs": "6.6.3"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
